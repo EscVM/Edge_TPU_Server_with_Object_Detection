@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img width="640" height="480" src="media/how_it_work.gif">
+  <img width="600" height="338" src="media/how_it_work.gif">
 </p>

@@ -54,4 +54,4 @@ Here a little list of stupid projects I built using this repository:
 
 - Person Detector @ Edge [here](media/how_it_work.gif)
 - Person Counter during Quarantine (lol) [here](media/quarantine_counter.gif)
-- Pose Detection @ Edge [here](media/pose_edge.jpg)
+- Pose Detection @ Edge [here](media/posenet_edge.jpg)

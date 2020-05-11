@@ -14,7 +14,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Process some input')
 parser.add_argument('--tpu', default=0, type=int, 
                     help='CPU: 0 | TPU: 1', required=True)
-parser.add_argument('--threshold', default=0.5, type=int, 
+parser.add_argument('--threshold', default=0.5, type=float, 
                     help='SSD Threshold level', required=False)
 parser.add_argument('--camera', default=0, type=int, 
                     help='Camera OpenCV index', required=False)

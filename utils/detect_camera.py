@@ -15,34 +15,34 @@ from threading import Thread
 
 
 class Detector(Thread):
-    """
-    Detector uses TensorFlow Lite and OpenCV to detect objects in a video stream
-    provided by a camera attached to the host computer
-    ...
-    
-    Attributes
-    ----------
-    tpu: bool
-        make use of TPU connected to the host device
-    threshold: float
-        threshold for the SSD network
-    camera: int
-        index of the OpenCV camera
+  """
+  Detector uses TensorFlow Lite and OpenCV to detect objects in a video stream
+  provided by a camera attached to the host computer
+  ...
+
+  Attributes
+  ----------
+  tpu: bool
+    make use of TPU connected to the host device
+  threshold: float
+    threshold for the SSD network
+  camera: int
+    index of the OpenCV camera
 
 
-    Methods
-    -------
-    load_labels(path, encoding='utf-8')
-        Load labels for the network
-    make_interpreter(model_file)
-        Create a TensorFlow Lite Interpreter
-    draw_objects(frame, objs, labels, scale, fps)
-        draw detections on a given frame
-    run()
-        run the thread
-    get_frame()
-        get a processed frame
-    """
+  Methods
+  -------
+  oad_labels(path, encoding='utf-8')
+    Load labels for the network
+  make_interpreter(model_file)
+    Create a TensorFlow Lite Interpreter
+  draw_objects(frame, objs, labels, scale, fps)
+    draw detections on a given frame
+  run()
+    run the thread
+  get_frame()
+    get a processed frame
+  """
   def __init__(self, tpu=False, threshold=0.5, camera=0):
     Thread.__init__(self)
     if tpu:

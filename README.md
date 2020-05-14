@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-<h1 align="center"> ~ Coral Server with Object Detection ~ </h1>
+<h1 align="center"> ~ Edge TPU Server with Object Detection ~ </h1>
 
 The first time I put my hands on a Coral board I was pretty amazed by the demo that they make you run at the end of the set-up procedure.
 It's a simple object detector running on the board, but that's not the point. You can check the predictions made by the network comfortably with your web browser! I recognized that was a pretty nice trick and that could be helpful for some of my works either serious or playful. Let's say expecially playful :))

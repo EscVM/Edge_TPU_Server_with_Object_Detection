@@ -56,3 +56,4 @@ Here a little list of stupid projects I built using this repository:
 - Person Counter during Quarantine (lol) (A person is not immediately add to the counter!) [here](media/quarantine_counter.gif)
 - Pose Detection @ Edge [here](media/posenet_edge.jpg)
 - Person Detection in NIR @ Edge [here](media/nir_project.gif)
+- Deep Sort @ Edge [here](https://www.youtube.com/watch?v=p7JeLPOVitw&feature=youtu.be)
